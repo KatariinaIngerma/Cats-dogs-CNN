@@ -16,7 +16,7 @@ The deep learning model used for classification is based on the following archit
 5. Flatten layer to convert the 2D feature maps into a 1D feature vector.
 6. Dense layer with 128 units and a ReLU activation function.
 7. Dropout layer with a dropout rate of 0.5 to prevent overfitting.
-8. Dense layer with 1 unit and a sigmoid activation function for binary classification.
+8. Dense layer with 1 unit and a sigmoid activation function for binary classification.   <br>
 The model is compiled with the Adam optimizer, binary cross-entropy loss function, and accuracy as the evaluation metric.
 ### Results
 The model achieved an accuracy of 68% on the test images. 
